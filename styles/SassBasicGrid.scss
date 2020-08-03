@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'corbert-regular';
+  src: url("./fonts/corbert-regular-webfont.woff2") format('woff2'), url("./fonts/corbert-regular-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'acherusgrotesque-regular';
+  src: url("./fonts/acherusgrotesque-regular-webfont.woff2") format('woff2'), url("./fonts/acherusgrotesque-regular-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import './variables';
+@import './header';
+
+.contact {
+  @include flexCenter(column, lighten(orange, 30%));
+  color: $textColor;
+
+  button {
+    background: $primaryBtn;
+
+    &:hover {
+      background: rgb(12, 241, 237);
+    }
+  }
+
+  .info {
+    p {
+      text-align: center;
+    }
+  }
+}
+
+.red {
+  color: rgb(25, 238, 189);
+}
+
+.blue {
+  color: rgb(34, 148, 255);
+}
+
+h1{
+  font-family: 'acherusgrotesque-regular';
+}
+
+#text{
+  font-family: 'corbert-regular';
+  font-size: 1.5rem;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cool Background Layout</title>
+  <!-- <script type="text/javascript" src="fastFonts.js"></script> -->
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="CB-Fonts.css">
+  <link rel="stylesheet" href="CB-000.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="name">Jason Rudokas</h1>
+      <div class="header-wrapper" id="app">
+        <h1 class="e1" v-bind:class="[attachedBottom ? 'top1' : 'bottom1']" @click="attachedAlign()">
+          <a href="ThePath.html">The Path</a></h1>
+        <h1 class="e2" v-bind:class="[attachedBottom ? 'top2' : 'bottom2']" @click="attachedAlign()">The Tools</h1>
+        <h1 class="e3"><a href="SomeDesigns.html">Some Designs</a></h1>
+        <h1 class="e4">Vue Sandbox</h1>
+        <h1 class="e5" v-bind:class="[attachedBottom ? 'top3' : 'bottom3']" @click="attachedAlign()">What's Next</h1>
+      </div>
+  </header>
+
+  <div class="footer">
+    <div class="inner_footer">
+      <div class="logo_container">
+        <img src="./pictures/leave.png">
+      </div>
+      <div class="footer_third">
+        <h1>Places to Go</h1>
+        <a href="#">The Path</a>
+        <a href="#">The Tools</a>
+        <a href="#">Some Designs</a>
+        <a href="#">Vue Sandbox</a>
+        <a href="#">What's Next</a>
+      </div>
+
+      <div class="footer_third">
+        <h1>Information</h1>
+        <span>
+          Location: Arlington, MA <br>
+          Email: jrudokas@gmail.com <br>
+          Phone: 339-203-7908
+        </span>
+        <li><a href="https://twitter.com/miles2know"><i class="fa fa-twitter"></i></a></li>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+  <script src="CoolBackground.js"></script>
+</body>
+
+</html>
+
+<!-- <svg width="800" height="800">
+  <circle cx="0" cy="400" r="8" stroke="black" stroke-width="2" fill="orange" />
+</svg> -->

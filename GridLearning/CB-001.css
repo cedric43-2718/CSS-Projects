@@ -1,0 +1,66 @@
+/* @supports (display: grid) {
+  path {
+    display: flex;
+    margin: auto;
+    padding-top: 5rem;
+    /* easy way to change whitespace at the bottom */
+/* padding-bottom: 1rem; */
+/* } */
+/* } */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+  background: #f6f3ea;
+  /* margin: 2.5rem; */
+  /* align-self: flex-start; */
+}
+
+span {
+  font-weight: 900;
+}
+
+.wrapper p {
+  font-size: 1.3rem;
+}
+
+h1 {
+  diplay: grid;
+  margin: auto;
+  grid-template-columns: auto;
+  grid-auto-rows: auto;
+  text-decoration: underline;
+  /* text-decoration-color: orange;
+  text-decoration-style: solid; */
+}
+
+.wrapper {
+  display: grid;
+  margin: auto;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  min-height: 100vh;
+  width: 75vw;
+  grid-template-areas:
+    "a"
+    "b"
+    "c";
+}
+
+.wrapper .e1 {
+  grid-area: a;
+  padding-right: 200px;
+}
+
+.e2 {
+  grid-area: b;
+  padding-left: 200px;
+}
+
+.e3 {
+  grid-area: c;
+  padding-right: 200px;
+}

@@ -1,0 +1,39 @@
+body{
+  background: #f6f3ea;
+}
+
+.container{
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-areas:
+  "tp tp"
+  "bot bot";
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  border: 1px solid black;
+}
+
+.container div{
+height: 30vh;
+width: 30vw;
+margin: 10px;
+border: 1px solid black;
+}
+
+.e1 .e2{
+  grid-area: tp;
+}
+
+.e3 .e4{
+  grid-area: bot;
+}
+
+.e1, .e2{
+  background: orange;
+}
+
+.e3, .e4{
+  background: blue;
+}

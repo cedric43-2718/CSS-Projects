@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'corbert-regular';
+  src: url('../styles/fonts/corbert-regular-webfont.woff2') format('woff2'),
+    url('../styles/fonts/corbert-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'acherusgrotesque-regular';
+  src: url('../styles/fonts/acherusgrotesque-regular-webfont.woff2') format('woff2'),
+    url('../styles/fonts/acherusgrotesque-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p{
+  font-family: 'corbert-regular';
+}
+
+h1 {
+  font-family: 'acherusgrotesque-regular';
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'corbert-regular';
+  src: url('/fonts/corbert-regular-webfont.woff2') format('woff2'),
+    url('/fonts/corbert-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'acherusgrotesque-regular';
+  src: url('./styles/fonts/acherusgrotesque-regular-webfont.woff2') format('woff2'),
+    url('./styles/fonts/acherusgrotesque-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
